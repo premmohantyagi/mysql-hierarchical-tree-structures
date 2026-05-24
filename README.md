@@ -16,6 +16,10 @@ Company
     └── Finance → Payroll
 ```
 
+## Preview
+
+![Playground screenshot — Hierarchical Tree Structures in MySQL](Structure.jpg)
+
 ## What's inside
 
 | File | Purpose |
