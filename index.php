@@ -225,7 +225,7 @@ function renderAsciiTree($node, $children, $prefix = '', $isLast = true, $isRoot
     body { background: #f5f7fb; }
     .tree-row { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
     .badge-num { font-variant-numeric: tabular-nums; }
-    .hero { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); color: #fff; }
+    .hero { background: linear-gradient(135deg, #dc2626 0%, #f97316 100%); color: #fff; }
 
     /* --- Org chart (pure CSS) --- */
     .orgchart-wrap { overflow-x: auto; padding: 2rem 1rem; text-align: center; }
@@ -258,7 +258,7 @@ function renderAsciiTree($node, $children, $prefix = '', $isLast = true, $isRoot
     .org-node {
         display: inline-block; padding: 8px 16px 6px;
         min-width: 110px;
-        background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        background: linear-gradient(135deg, #dc2626, #f97316);
         color: #fff; font-weight: 500; border-radius: 8px;
         box-shadow: 0 4px 10px rgba(99, 102, 241, .25);
         white-space: nowrap; transition: transform .15s, box-shadow .15s;
@@ -308,6 +308,11 @@ function renderAsciiTree($node, $children, $prefix = '', $isLast = true, $isRoot
     }
     .ns-name { color: #1e293b; font-weight: 600; }
     .ns-meta { color: #94a3b8; font-size: .85em; font-weight: 400; }
+
+    /* --- Tab pills (Adjacency List / Nested Set) --- */
+    .nav-pills .nav-link            { color: #334155; }
+    .nav-pills .nav-link:hover      { color: #0f172a; background: #e2e8f0; }
+    .nav-pills .nav-link.active     { background: #1e293b; color: #fff; }
 </style>
 </head>
 <body>

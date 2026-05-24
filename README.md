@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="steps-icon.png" alt="Project logo" width="120">
+</p>
+
 # MySQL Hierarchical Tree Structures
 
 A hands-on guide and interactive playground for storing tree-shaped data in MySQL using two proven models — **Adjacency List** and **Nested Set** — with a company org chart as the running example.
